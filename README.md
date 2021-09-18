@@ -10,5 +10,12 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 
 ![Created 'Date Created Conversion' column by converting Unix Timestamps into readable formate,created years column from year() function apply on date created conversion column,subcategorized "category and subcategory column into parent category and subcategory](https://user-images.githubusercontent.com/90277142/133908588-193ebc74-6125-4c40-a8b5-6288909ad013.png)
 
+* I Created a pivot table from the KickStarter worksheet and place the pivot table in a new sheet.Label the sheet "**Theater Outcomes by Launch Date.**" 
+* For filter the pivot table based on "Parent Category" and "Years.I dragged Parent category and years from pivotchart field to filters. Then i dragged Outcomes column from pivotchart field to columns,put ""Date created convertion"" column in rows and Outcomes column into values to know the count of Outcomes.
+* Then Filter the column labels to show only "successful," "failed," and "canceled" outcomes.for filter the column we have to click on downarrow button,one small window will open,First i will deselect the default option "Select all".then choose only "successful," "failed," and "canceled" outcomes.
+
+**My Pivot Table looks like this:**
+
+![Theater Outcomes by Launch Date](https://user-images.githubusercontent.com/90277142/133909557-6ae02527-7c99-41e2-b9c7-6ec1f7f6ac43.png)
 
 
