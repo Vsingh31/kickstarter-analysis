@@ -12,10 +12,17 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 
 * I Created a pivot table from the KickStarter worksheet and place the pivot table in a new sheet.Label the sheet "**Theater Outcomes by Launch Date.**" 
 * For filter the pivot table based on "Parent Category" and "Years.I dragged Parent category and years from pivotchart field to filters. Then i dragged Outcomes column from pivotchart field to columns,put ""Date created convertion"" column in rows and Outcomes column into values to know the count of Outcomes.
-* Then Filter the column labels to show only "successful," "failed," and "canceled" outcomes.for filter the column we have to click on downarrow button,one small window will open,First i will deselect the default option "Select all".then choose only "successful," "failed," and "canceled" outcomes.
+* Then Filter the column labels to show only "successful," "failed," and "canceled" outcomes, we have to click arrow that is right side of column that activate the dropdown menu ,First i will deselect the default option "Select all".then choose only "successful," "failed," and "canceled" outcomes.
 
 **My Pivot Table looks like this:**
 
 ![Theater Outcomes by Launch Date](https://user-images.githubusercontent.com/90277142/133909557-6ae02527-7c99-41e2-b9c7-6ec1f7f6ac43.png)
 
+
+* Filter the "Parent Category" to show only the data for "theater,I clicked the right side arrow of parent category and selecting the theater from dropdown menu.
+* For Sorting the campaign outcomes in descending order so "successful" is first,I put filter on outcome column and choosed Sort Z to A option for descending order.
+
+**My Final pivot table looks like the following:**
+
+![pivot table of theater outcomes](https://user-images.githubusercontent.com/90277142/133909885-d27e8366-fe5a-4fc0-b948-4f6bf68dc6d1.png)
 
