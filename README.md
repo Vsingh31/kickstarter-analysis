@@ -7,7 +7,7 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 created a new column labeled **Years**.In the Years column,I used the YEAR() function to extract the year from the “Date Created Conversion” column.
 
 
-![Created 'Date Created Conversion' column by converting Unix Timestamps into readable formate](https://user-images.githubusercontent.com/90277142/133906780-2d87a47d-3ff3-4a7c-bc9c-e4387072e3ee.png)
+![Created 'Date Created Conversion' column by converting Unix Timestamps into readable formate,created years column from year() function apply on date created conversion column,subcategorized "category and subcategory column into parent category and subcategory](https://user-images.githubusercontent.com/90277142/133908588-193ebc74-6125-4c40-a8b5-6288909ad013.png)
 
 
 I created pivot table in new sheet and Label the sheet **Theater Outcomes by Launch Date.
