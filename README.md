@@ -30,3 +30,5 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 * For Adding a title to the line chart,when I clicked on line chat it shows + sign at the right side of chart.I clicked on that sign,it open a small window of "Chat Elements" .I select Chat Title from that window,it is giving option to write chat title on chart.
 
 ![Theater_Outcomes_vs_Launch date chart](https://user-images.githubusercontent.com/90277142/133910375-b351b082-e3fb-4b1e-b620-41b2ffcc63ad.png)
+
+### Outcomes Based On Goals Chart
