@@ -10,7 +10,7 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 
 ![Created 'Date Created Conversion' column by converting Unix Timestamps into readable formate,created years column from year() function apply on date created conversion column,subcategorized "category and subcategory column into parent category and subcategory](https://user-images.githubusercontent.com/90277142/133908588-193ebc74-6125-4c40-a8b5-6288909ad013.png)
 
-* I Created a pivot table from the KickStarter worksheet and place the pivot table in a new sheet.Label the sheet "**Theater Outcomes by Launch Date.**" 
+* I Created a pivot table from the KickStarter worksheet and place the pivot table in a new sheet.Label the sheet "**Theater Outcomes by Launch Date.**" I created pivot table,first click on Insert tab and then select pivot table option
 * For filter the pivot table based on "Parent Category" and "Years.I dragged Parent category and years from pivotchart field to filters. Then i dragged Outcomes column from pivotchart field to columns,put ""Date created convertion"" column in rows and Outcomes column into values to know the count of Outcomes.
 * Then Filter the column labels to show only "successful," "failed," and "canceled" outcomes, we have to click arrow that is right side of column that activate the dropdown menu ,First i will deselect the default option "Select all".then choose only "successful," "failed," and "canceled" outcomes.
 
@@ -26,3 +26,7 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 
 ![pivot table of theater outcomes](https://user-images.githubusercontent.com/90277142/133909885-d27e8366-fe5a-4fc0-b948-4f6bf68dc6d1.png)
 
+* I created a line chart from the "theater Outcomes by launch date" pivot table to visualize the relationship between outcomes and launch month.For Line chart first i click on    Insert tab then in "Charts option" i got "Insert Line and Area chart". I choosed that one then 2D-Line.I got Line Chart. 
+* For Adding a title to the line chart,when I clicked on line chat it shows + sign at the right side of chart.I clicked on that sign,it open a small window of "Chat Elements" .I select Chat Title from that window,it is giving option to write chat title on chart.
+
+![Theater_Outcomes_vs_Launch date chart](https://user-images.githubusercontent.com/90277142/133910375-b351b082-e3fb-4b1e-b620-41b2ffcc63ad.png)
