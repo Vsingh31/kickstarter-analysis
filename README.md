@@ -5,7 +5,7 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
     1 **Analysis of outcomes based on lauch date**
 * In kickstarter dataset,launch date given in **Unix Timestamps** .so first I changed Unix Timestamps in readable format and make new column,named **Date Created Conversion** with the help of this formula =(((j2/60)/60)/24)+DATE(1970,1,1) .
 * created a new column labeled **Years**.In the Years column,I used the YEAR() function to extract the year from the “Date Created Conversion” column.
-* "**Challenges :**"  According to task,i have to Filter the pivot table based on "Parent Category" and "Years."I have years column but i don't have parent category column.Before making pivot table I splitted the "**Category and subcategory**" column from kickstarter into two distinct column "**Parent category**" and "**Subcategory**".[How to create subcategories from a column](https://courses.bootcampspot.com/courses/779/pages/1-dot-3-1-pivoting-toward-success?module_item_id=299719)
+* **Challenges :**  According to task,i have to Filter the pivot table based on "Parent Category" and "Years."I have years column but i don't have parent category column.Before making pivot table I splitted the "**Category and subcategory**" column from kickstarter into two distinct column "**Parent category**" and "**Subcategory**".[How to create subcategories from a column](https://courses.bootcampspot.com/courses/779/pages/1-dot-3-1-pivoting-toward-success?module_item_id=299719)
 
 
 ![Created 'Date Created Conversion' column by converting Unix Timestamps into readable formate,created years column from year() function apply on date created conversion column,subcategorized "category and subcategory column into parent category and subcategory](https://user-images.githubusercontent.com/90277142/133908588-193ebc74-6125-4c40-a8b5-6288909ad013.png)
@@ -53,6 +53,28 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
     -35000 to 39999
     -40000 to 44999
     -Greater than 50000
+    
+* **Challenges:** I used COUNTIFS() function first time so it was challenging and even i was using COUNTIFS() function on "Outcome Based On Goals sheet" and getting Criteria Range from kickstarter sheet.So I watched some video from youtube and google and get it how to use this Function.
+* In COUNTIFS() function we first take Criteria range for a column of interest and the criteria to filter data from that column and I Used COUNTIFS() functions to populate the "Number Successful," "Number Failed," and "Number Canceled" columns by filtering on the Kickstarter "outcome" column, on the "goal" amount column using the ranges created ahead, and on the "Subcategory" column using "plays" as the criteria.For this I get three Criteria Range,one from Kickstarter sheet,i took outcomes column range that was F2:F4115,and put criteria should be Successful and second goals column range(D2:D4115) from kickstarter sheet and put criteria that given in "Outcome Based On Goals sheet" then last from kickstarter sheet, took subcatory column range(p2:p4115) and put criteria as "paly" only.
+
+=COUNTIFS(Kickstarter!F2:F4115,"=successful",Kickstarter!D2:D4115,"<1000",Kickstarter!P2:P4115,"plays")
+
+=COUNTIFS(Kickstarter!F2:F4115,"=failed",Kickstarter!D2:D4115,"<1000",Kickstarter!P2:P4115,"plays")
+
+=COUNTIFS(Kickstarter!F2:F4115,"=canceled",Kickstarter!D2:D4115,"<1000",Kickstarter!P2:P4115,"plays")
+
+* I changed the Goal amount in the goal column range in everygoal amount row and got "Number Successful," "Number Failed," and "Number Canceled".
+
+* I Used the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.In SUM() function I added cell B2,C2,D2 to get total project number.
+* For Calculating the percentage of successful, failed, and canceled projects for each row.I divided number_successful,number_failed and number_canceled by total_number to get percentage for each row.
+* With the help of Outcome Based On Goals sheet dataset i created a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
+
+**My line chart looks like the following:** 
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/90277142/133913699-9f932948-48c4-4a69-b6a3-b7b1fa21f0b3.png)
+
+
+
  
  
     
