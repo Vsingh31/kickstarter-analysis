@@ -56,6 +56,9 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
     -40000 to 44999
     -Greater than 50000
     
+    ![Outcomes_based_on_goal-data](https://user-images.githubusercontent.com/90277142/133941435-2865b622-0257-4aa9-8c3b-c84b7582987b.png)
+
+    
 * **Challenges:** I used COUNTIFS() function first time so it was challenging and even i was using COUNTIFS() function on "Outcome Based On Goals sheet" and getting Criteria Range from kickstarter sheet.So I watched some video from youtube and google and get it how to use this Function.
 * In COUNTIFS() function we first take Criteria range for a column of interest and the criteria to filter data from that column and I Used COUNTIFS() functions to populate the "Number Successful," "Number Failed," and "Number Canceled" columns by filtering on the Kickstarter "outcome" column, on the "goal" amount column using the ranges created ahead, and on the "Subcategory" column using "plays" as the criteria.For this I get three Criteria Range,one from Kickstarter sheet,i took outcomes column range that was F2:F4115,and put criteria should be Successful and second goals column range(D2:D4115) from kickstarter sheet and put criteria that given in "Outcome Based On Goals sheet" then last from kickstarter sheet, took subcatory column range(p2:p4115) and put criteria as "paly" only.
 
