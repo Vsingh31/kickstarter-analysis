@@ -73,6 +73,14 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/90277142/133913699-9f932948-48c4-4a69-b6a3-b7b1fa21f0b3.png)
 
+#### Results:
+* **Theater Outcomes by Launch Date:**
+      1 For "Theater Outcomes by Launch Date" sheet and chart,I wanted “Date Created Conversion” column that I created from "launched at" column.I converted "launched at" Unix timestamps data into readable format.Then i created one new column name "Years" with the help of Year() Function on “Date Created Conversion” column data.
+      2 I Subcategorized the "Category and Subcatory" column into two distict column,Parent category and Subcategory. Because I wanted parent category column for filtering data in pivot table and make chart.
+ 
+* **Outcomes based on Goals:**
+      For "Outcomes based on Goals" chart I need number of successful,number of failed and number of canceled outcomes on the goals using the goal ranges and on the "Subcategory" column using "plays" as the criteria for each row.I calculated "Number Successful," "Number Failed," and "Number Canceled" by using COUNTIFS() function.Then i calculated total project by adding "Number Successful," "Number Failed," and "Number Canceled" for each row by using SUM() Function. Then i calculated percentage of successful, failed, and canceled projects for each row.I divided number_successful,number_failed and number_canceled by total_number to get percentage for each row. At last I got all data what i wanted to make Outcomes based on Goals Chat.
+
 
 
  
