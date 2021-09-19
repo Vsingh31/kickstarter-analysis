@@ -2,7 +2,7 @@
 ## Overview Of Project
 For this project,I am using Kickstarter dataset.I will analize and visualize campaign outcomes column based on their Launch dates and their funding goals.By Analysing and visualizing,i will prepare outcomes based on launch date chart and outcomes based on goals chart too.
 ### Analysis And Challenges
-    1**Analysis of outcomes based on lauch date**
+    1 **Analysis of outcomes based on lauch date**
 * In kickstarter dataset,launch date given in **Unix Timestamps** .so first I changed Unix Timestamps in readable format and make new column,named **Date Created Conversion** with the help of this formula =(((j2/60)/60)/24)+DATE(1970,1,1) .
 * created a new column labeled **Years**.In the Years column,I used the YEAR() function to extract the year from the “Date Created Conversion” column.
 * "**Challenges :**"  According to task,i have to Filter the pivot table based on "Parent Category" and "Years."I have years column but i don't have parent category column.Before making pivot table I splitted the "**Category and subcategory**" column from kickstarter into two distinct column "**Parent category**" and "**Subcategory**".[How to create subcategories from a column](https://courses.bootcampspot.com/courses/779/pages/1-dot-3-1-pivoting-toward-success?module_item_id=299719)
@@ -31,4 +31,30 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 
 ![Theater_Outcomes_vs_Launch date chart](https://user-images.githubusercontent.com/90277142/133910375-b351b082-e3fb-4b1e-b620-41b2ffcc63ad.png)
 
-2 **Outcomes Based On Goals Chart**
+2   **Outcomes Based On Goals Chart**
+* In the KickStarter sheet,I created a new sheet and label it "Outcomes Based on Goals."In Outcome based on goals sheet, create the following columns to hold the data:
+    -Goal
+    -Number Successful
+    -Number Failed
+    -Number Canceled
+    -Total Projects
+    -Percentage Successful
+    -Percentage Failed
+    -Percentage Canceled
+* In the “Goal” column,I created the following dollar-amount ranges so projects can be grouped based on their goal amount. 
+    -Less than 1000
+    -1000 to 4999
+    -5000 to 9999
+    -10000 to 14999
+    -15000 to 19999
+    -20000 to 24999
+    -25000 to 29999
+    -30000 to 34999
+    -35000 to 39999
+    -40000 to 44999
+    -Greater than 50000
+ 
+ 
+    
+   
+
