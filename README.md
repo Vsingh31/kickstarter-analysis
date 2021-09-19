@@ -21,7 +21,7 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 
 **My Pivot Table looks like this:**
 
-![Pivot_Theater Outcomes by Launch Date](https://user-images.githubusercontent.com/90277142/133941184-9a64a997-dd37-4c98-b2ac-a8511584641f.png)
+![Pivot_Theater Outcomes by Launch Date](https://user-images.githubusercontent.com/90277142/133941184-9a64a997-dd37-4c98-b2ac-a8511584641f.png) 
 
 
 * Filter the "Parent Category" to show only the data for "theater,I clicked the right side arrow of parent category and selecting the theater from dropdown menu.
