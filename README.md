@@ -1,6 +1,8 @@
 # Kickstarting With Excel
+
 ## Overview Of Project
 For this project,I am using Kickstarter dataset.I will analize and visualize campaign outcomes column based on their Launch dates and their funding goals.By Analysing and visualizing,i will prepare outcomes based on launch date chart and outcomes based on goals chart too.
+
 ### Analysis And Challenges
     1 **Analysis of outcomes based on lauch date**
 * In kickstarter dataset,launch date given in **Unix Timestamps** .so first I changed Unix Timestamps in readable format and make new column,named **Date Created Conversion** with the help of this formula =(((j2/60)/60)/24)+DATE(1970,1,1) .
@@ -82,7 +84,8 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
       For "Outcomes based on Goals" chart I need number of successful,number of failed and number of canceled outcomes on the goals using the goal ranges and on the "Subcategory" column using "plays" as the criteria for each row.I calculated "Number Successful," "Number Failed," and "Number Canceled" by using COUNTIFS() function.Then i calculated total project by adding "Number Successful," "Number Failed," and "Number Canceled" for each row by using SUM() Function. Then i calculated percentage of successful, failed, and canceled projects for each row.I divided number_successful,number_failed and number_canceled by total_number to get percentage for each row. At last I got all data what i wanted to make Outcomes based on Goals Chat.
 
 * **limitations of the dataset**
-Excel limits visibility of dataset when we have more columns and Keeping track of multiple sheets is challenging.
+1. If we change anything in dataset, it is not been reflected in Pivot on it's own. But it has to be refereshed to reflect the changes.
+2. Excel limits visibility of dataset when we have more columns and Keeping track of multiple sheets is challenging. 
 
 
 
