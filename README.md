@@ -86,6 +86,8 @@ For this project,I am using Kickstarter dataset.I will analize and visualize cam
 * **limitations of the dataset**
 1. If we change anything in dataset, it is not been reflected in Pivot on it's own. But it has to be refereshed to reflect the changes.
 2. Excel limits visibility of dataset when we have more columns and Keeping track of multiple sheets is challenging. 
+* **Recommendation for additional tables or graphs**
+     A line graph has the advantage of showing changes over time,So we can See the trend of Outcomes.Other graphs, such as pie charts, are used to show components of one whole.if we will use pie chart ,we can show the percentage of Outcomes.
 
 
 
